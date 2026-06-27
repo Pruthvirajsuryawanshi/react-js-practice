@@ -1,0 +1,36 @@
+/* Write your CSS here */
+.container {
+  background-color: orange;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+button {
+  align-self: center;
+}
+.namecard {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.buttonContainer {
+  display: flex;
+  gap: 50px;
+  flex-direction: row;
+}
+.firstNameCard {
+  width: 150px;
+  background-color: yellow;
+  border-radius: 10px;
+}
+.lastNameCard {
+  background-color: yellow;
+  border-radius: 10px;
+  width: 150px;
+}
